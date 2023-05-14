@@ -11,5 +11,5 @@ export const con = mysql.createConnection({
     host:"localhost",
     user:"root",
     password:"",
-    database:"prodact project"
+    database:"product-db"
 })
