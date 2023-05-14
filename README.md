@@ -4,7 +4,7 @@
 
 This project consists of a backEnd and two frontend projects. The addproduct project allows admins to add products which are later viewed by users in the products project.
 
-## Prerequists
+## Prerequisites
 
 1. Node installed on your system.
 2. XAMPP Control Panel installed on your system and configured with MySQL.
