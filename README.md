@@ -1,1 +1,1 @@
-# productsProject
+# Products Project
