@@ -1,0 +1,47 @@
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+}
+
+.fromDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #7b2cbf;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.inputsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+#icon {
+  margin: 20px auto;
+  gap: 10px;
+}/*# sourceMappingURL=signIn.module.css.map */

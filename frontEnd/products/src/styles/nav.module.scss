@@ -1,0 +1,279 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7b2cbf;
+  color: white;
+  min-height: 80px;
+}
+
+.rightDiv {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightIcons {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.divSearchInput {
+  display: flex;
+  position: relative;
+  background-color: white;
+  justify-content: start;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 5px;
+  border-radius: 6px;
+  position: relative;
+  border: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+#searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  padding: 10px;
+  background-color: #3c096c;
+  cursor: pointer;
+  position: absolute;
+  top: 49.5%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.UserInfoDiv {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+}
+
+.UserImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.userName {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0 10px;
+}
+
+.divDown {
+  position: absolute;
+  top: 75px;
+  right: 28px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+  padding: 0;
+}
+
+.liItem {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(218, 64, 64);
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.signInUpDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 150px;
+}
+
+.signIn {
+  cursor: pointer;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: white;
+  color: #7b2cbf;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.signUp {
+  cursor: pointer;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: white;
+  color: #7b2cbf;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#cartIcon{
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.cartIconDiv{
+  position: relative; 
+  width: fit-content;
+}
+
+.ribbon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -8px;
+  right: 10px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: red;
+ 
+}
+
+#countNumbers{
+  white-space: nowrap; 
+  overflow: hidden;
+  //text-overflow: ellipsis;
+}
+
+
+.divSearchInputWithResult{
+  position: relative;
+}
+
+.InputResultUl{
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  background-color: #3c096c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 100;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.InputResultLi{
+  color: white;
+  margin: 4px auto;
+  padding: 4px;
+  width: 100%;
+  border-bottom: 1px white solid;
+  cursor: pointer;
+  
+}
+
+.InputResultLi:hover{
+  text-decoration: none;
+  transition: all 1s;
+  background-color: white;
+  color: #3c096c;
+  margin: 4px auto;
+  padding: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #searchIcon {
+    width: 25px;
+    height: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .UserImage {
+    width: 35px;
+    height: 35px;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+
+  .searchInput {
+    width: 150px;
+    padding: 5px;
+    border-radius: 6px;
+    position: relative;
+    border: none;
+    margin-left: 4px;
+  }
+
+  .rightIcons {
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  #icon {
+    margin-left: 3px;
+    font-size: 15px;
+  }
+
+  .userName {
+    margin: 0 3px;
+    font-size: 13px;
+  }
+
+  .signInUpDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 80px;
+  }
+
+  .signIn {
+    cursor: pointer;
+    margin: 5px auto;
+    gap: 5px;
+    background-color: white;
+    color: #7b2cbf;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+
+  .signUp {
+    cursor: pointer;
+    margin: 5px auto;
+    gap: 5px;
+    background-color: white;
+    color: #7b2cbf;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+}

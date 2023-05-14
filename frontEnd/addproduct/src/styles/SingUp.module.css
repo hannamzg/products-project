@@ -1,0 +1,146 @@
+.inputErr {
+  border: solid 2px red;
+}
+
+.err {
+  background-color: rgb(218, 64, 64);
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 2px;
+  color: #FFFFFF;
+}
+
+.dark .nav {
+  background-color: #FFFFFF;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.dark .ChangeColor {
+  position: absolute;
+  top: 0;
+}
+.dark .singInDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark .from {
+  box-shadow: 9px 7px 12px -3px #121212;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+.dark .inp {
+  background-color: #FFFFFF;
+  color: #121212;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.dark .inp::-moz-placeholder {
+  background-color: #FFFFFF;
+  color: #121212;
+}
+.dark .inp::placeholder {
+  background-color: #FFFFFF;
+  color: #121212;
+}
+.dark .header {
+  color: #FFFFFF;
+  font-family: cursive;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.dark .submit {
+  background-color: #FFFFFF;
+  color: #121212;
+  width: 40%;
+  margin: 0 auto;
+  padding: 7px;
+  margin: 10px auto;
+  border-radius: 7px;
+  font-family: cursive;
+}
+.dark .sendToSingIn {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 3px;
+  border-radius: 4px;
+  margin-left: 250px;
+  text-decoration: underline;
+}
+
+.light .ChangeColor {
+  position: absolute;
+  top: 0;
+}
+.light .singInDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.light .from {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+.light .inp {
+  background-color: #121212;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.light .inp::-moz-placeholder {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+.light .inp::placeholder {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+.light .header {
+  color: #121212;
+  font-family: cursive;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.light .submit {
+  background-color: #121212;
+  color: #FFFFFF;
+  width: 40%;
+  margin: 0 auto;
+  padding: 7px;
+  margin: 10px auto;
+  border-radius: 7px;
+  font-family: cursive;
+}
+.light .sendToSingIn {
+  color: black;
+  background-color: transparent;
+  border: none;
+  padding: 3px;
+  border-radius: 4px;
+  margin-left: 250px;
+  text-decoration: underline;
+}/*# sourceMappingURL=SingUp.module.css.map */

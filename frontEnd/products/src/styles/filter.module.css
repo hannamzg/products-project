@@ -1,0 +1,34 @@
+.filterDiv {
+  width: 100%;
+  background-color: #3c096c;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.titlesDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #7b2cbf;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.active {
+  background-color: white;
+  color: #7b2cbf;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+}/*# sourceMappingURL=filter.module.css.map */

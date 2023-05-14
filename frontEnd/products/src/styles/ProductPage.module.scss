@@ -1,0 +1,192 @@
+.bigDiv{
+  background-color: #10002b;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+ 
+  background-color: white;
+  width: 70%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.nameTitle{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.image{
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.decripshin{
+    margin: 20px auto;
+    max-width: 1000px;
+    font-size: 14px;
+    width: 60%;
+}
+
+.footer{
+  padding-top: 15px;
+  border-top: 1px solid black ;
+  display:flex;
+  justify-content:space-between;
+  width:80%;
+  margin: 20px auto;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c096c;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.iconAdd{
+  margin: 0 auto;
+}
+
+.AddTitle{
+  margin: 0 auto;
+}
+
+.ratingDiv{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.yourRateDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 0, 0,0.5);
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+}
+
+.theRateDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  width: 350px;
+  height: 280px;
+}
+
+
+.closeBtn{
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.rateHeder{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#starIcon{
+  color: #3c096c;
+  font-size: 40px;
+}
+
+.RateThis{
+  color: #10002b;
+  font-size: 20px; 
+}
+
+.nameOfProductRating{
+  color: #10002b;
+  font-size: 25px;
+  
+}
+
+.RateSubmit{
+  margin: 0 auto;
+}
+
+.btnSubmit{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.loader {
+  background-color: white;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:conic-gradient(#0000 10%,white);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 1s infinite linear; 
+}
+
+@keyframes s3 {to{transform: rotate(1turn)}}
+
+
+
+@media only screen and (max-width: 1000px) {
+  
+  .image{
+    width: 200px;
+    margin: 10px auto;
+  }
+    
+  .btn{
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c096c;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .decripshin{
+   font-size: 12px;
+  }
+
+  .div {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+}

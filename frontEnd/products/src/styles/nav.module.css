@@ -1,0 +1,81 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7b2cbf;
+  color: white;
+  min-height: 80px;
+}
+
+.rightDiv {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightIcons {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.divSearchInput {
+  position: relative;
+  background-color: white;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 5px;
+  border-radius: 6px;
+  position: relative;
+  border: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+#searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  padding: 10px;
+  background-color: #3c096c;
+  cursor: pointer;
+  position: absolute;
+  top: 49.5%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.signInUpDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 150px;
+}
+
+.signIn {
+  cursor: pointer;
+  margin: 0 auto;
+  gap: 10px;
+  text-decoration-line: underline;
+}
+
+.signUp {
+  cursor: pointer;
+  margin: 0 auto;
+  gap: 10px;
+  text-decoration-line: underline;
+}/*# sourceMappingURL=nav.module.css.map */

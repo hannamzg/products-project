@@ -1,0 +1,64 @@
+
+
+
+.items{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: #FFFFFF;
+    margin: 10px 0 ;
+}
+
+.itemLeft{
+    display: flex;
+    align-items: center;
+}
+
+.titles{
+    font-size: 18px;
+    margin: 0 10px;
+    font-family: sans-serif;
+}
+
+
+.img{
+    width: 100px;
+    height: auto;
+}
+
+#pencilIcon{
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+#trash3Icon{
+    margin: 0 2pc;
+    cursor: pointer;
+    font-size: 19px;
+    color: rgb(218, 64, 64);
+
+}
+
+.custom {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
+      conic-gradient(#0000 30%,#766DF4);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+  }
+  
+  @keyframes s3{ 
+    100%{transform: rotate(1turn)}
+  }
